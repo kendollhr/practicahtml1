@@ -2,6 +2,7 @@
 <html>
 
 	<head>
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
 		<meta charset="utf-8">
 		<title>Practica Web 3</title>
 
@@ -119,6 +120,80 @@
  
 			<p>Berners Lee dirige desde 2007 el World Wide Web Consortium (W3C), el cual desarrolla y mantiene esos y otros estándares que permiten a los ordenadores de la Web almacenar y comunicar efectivamente diferentes formas de información.</p>
 		</div>
+		<br>
+
+		<table>
+			<thead>
+				<tr>
+					<td>Number0</td>
+					<td>Primer Nombre</td>
+					<td>Apellido</td>
+					<td>Puntos</td>
+				</tr>
+			</thead>
+
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>Eve</td>
+					<td>Jackson</td>
+					<td>94</td>
+				</tr>
+
+				<tr>
+					<td>2</td>
+					<td>John</td>
+					<td>Doe</td>
+					<td>80</td>
+				</tr>
+
+				<tr>
+					<td>3</td>
+					<td>Adam</td>
+					<td>johnson</td>
+					<td>67</td>
+				</tr>
+
+				<tr>
+					<td>4</td>
+					<td>Jill</td>
+					<td>Smith</td>
+					<td>50</td>
+				</tr>
+	
+			</tbody>
+
+		</table>
+		<br>
+
+		<form>
+			Primer Nombre:<br>
+			<input type="text" name="firstname">
+			<br>
+			Email:<br>
+			<input type="text" name="lastname">
+			<br>
+			Empresa:<br>
+			<input type="text" name="jobname">
+			<br>
+			Tipo de solicitud:<br>
+			<input type="radio" name="sex" value="male" checked>Soporte
+			<br>
+			<input type="radio" name="sex" value="female">Contacto General
+			<br>
+			<label>Pais:</label>
+			<select>
+				<option>Costa Rica</option>
+				<option>Panama</option>
+				<option>Nicaragua</option>
+				<option>Honduras</option>
+				<option>El Salvador</option>
+			</select>
+			<br>
+			<textarea placeholder=" Su mensaje"></textarea>
+			<br>
+			<button>Submit</button>
+		</form>
 	</body>
 
 </html>
